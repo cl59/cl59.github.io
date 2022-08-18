@@ -1,42 +1,202 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Chen Liu</title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">menu</div>
-<div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="news.html">News</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
-<div class="menu-item"><a href="teaching.html">Teaching</a></div>
-<div class="menu-category">links</div>
-<div class="menu-item"><a href="https://scholar.google.com/citations?user=Xnfdf-4AAAAJ&hl=en">Google&nbsp;Scholar</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Chen Liu</h1>
-</div>
-<table class="imgtable"><tr><td>
-<a href="https://cl59.github.io"><img src="Figures/bio.png" alt="alt text" width="131px" height="160px" /></a>&nbsp;</td>
-<td align="left"><p><i>Address:</i> <br />
-Department of Mathematics (Office 427), <br /> 
-Purdue University<br />
-150 North University Street <br />
-West Lafayette, Indiana, 47907-2067 <br /> <br />
-<i>Email:</i> <br />
-E-mail: liu3373 [AT] purdue.edu</p>
-</td></tr></table>
-<h2>About me</h2>
-<p>I am a Golomb Visiting Assistant Professor in <a href="https://www.math.purdue.edu">Department of Mathematics</a> at <a href="https://www.purdue.edu">Purdue University</a> under the supervision of <a href="https://www.math.purdue.edu/~zhan1966/">Prof. Xiangxiong Zhang</a>. I received my Ph.D. degree from the <a href="https://www.caam.rice.edu">Department of Computational and Applied Mathematics</a> at <a href="https://www.rice.edu">Rice University</a> in 2019. My advisor is <a href="https://compm.rice.edu/people-2/beatrice-riviere/">Prof. Beatrice Riviere</a>. Click here for my detailed <a href="CurriculumVitae.pdf">Curriculum Vitae</a>.  </p>
-</td>
-</tr>
-</table>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chen Liu's Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Bootstrap -->
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+            <link rel="stylesheet" href="academicons-1.8.6/css/academicons.min.css"/>
+        <script src="https://kit.fontawesome.com/60848b8342.js" crossorigin="anonymous"></script>   
+    </head>
+
+    <style>
+        /* Modify the background color */
+         
+        .navbar {
+            background-color: #002F6C;
+        }
+        .navbar .navbar-brand,
+        .navbar .navbar-text {
+            color: #FFC72C;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /*.navbar .navbar-brand:hover { color:#FFC72C; } */
+        .navbar .navbar-brand { 
+        color: #C1C6C8 !important; 
+        }
+
+        .nav-item.active{
+        color: #FFC72C;
+        background-color: #757373;    
+        }
+
+        .navbar-nav .nav-item .nav-link {
+        color: #C1C6C8;
+        }
+
+        .navbar-nav .nav-item.active .nav-link,
+        .navbar-nav .nav-item:hover .nav-link {
+            color: white;
+        }
+
+        .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+        }
+
+        .custom-toggler .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,199,44, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+        .custom-toggler.navbar-toggler {
+          border-color: #FFC72C;
+        } 
+
+
+    </style>
+    
+    <body style="background-color: white">
+        <!-- 
+<nav class="navbar-wrapper navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <!~~ Brand and toggle get grouped for better mobile display ~~>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><b>Deep Ray</b></a>
+                </div>
+                
+                <!~~ Collect the nav links, forms, and other content for toggling ~~>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="#"> Home</a></li>
+                        <!~~<li><a href="about.html"> Personal</a></li>~~>
+                        <li><a href="cv.html"> CV</a></li> 
+                        <!~~ <li><a href="research.html"> Research</a></li> ~~>
+                        <li><a href="publications.html"> Publications</a></li>
+                        <li><a href="codes.html"> Codes</a></li>
+                        <li><a href="teaching.html"> Teaching</a></li>
+                        <li><a href="contact.html"> Contact</a></li>
+                    </ul>
+                </div><!~~ /.navbar-collapse ~~>
+            </div>
+        </nav>
+ -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-between">
+        <div class="container">
+            <a class="navbar-brand" href="#" mb-0 h1>Chen Liu</a>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           		 <span class="navbar-toggler-icon"></span>
+            </button>
+            
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="navbar-nav mr-auto ">
+       		 <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="publications.html">Research</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="talks.html">Talks</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="teaching.html">Teaching</a>
+             </li>
+        	 <!-- 
+<li class="nav-item">
+            	    <a class="nav-link" href="contact.html">Contact</a>
+             </li>
+ -->
+        </div>
+        </div>
+        </nav>
+        
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <center><img class="img-thumbnail" alt="Thumbnail Image" src="Figures/bio.png"></center>
+                    
+                    <center><hr><b>Golomb Visiting Assistant Professor</b><br>
+                    Department of Mathematics<br>
+                    Purdue University<hr><br><center>
+                    <!-- <b>Office:</b> Room 2002, Duncan Hall <br><br> -->
+					<a href = "mailto:liu3373@purdue.edu" style="color:#f2b700"><i class="fas fa-envelope fa-2x"></i></a> &ensp;    
+					<!-- <a href = "https://www.linkedin.com/in/deep-ray" style="color:#2867B2" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a> &ensp; -->
+					<a href = "https://www.researchgate.net/profile/Chen-Liu-22" style="color:#39B2A7" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate fa-2x"></i></a> &ensp;
+					<a href = "https://scholar.google.com/citations?user=Xnfdf-4AAAAJ&hl=en" style="color:blue" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar ai-2x"></i></a> &ensp;
+					<a href = "https://orcid.org/0000-0002-8778-7760" style="color:#78B239" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid fa-2x"></i></a>
+
+                    
+                    
+                </div>
+                <div class="col-md-8">
+       
+                    <p class="text-justify">Chen Liu is a Golomb Visiting Assistant Professor in the <a href="https://www.math.purdue.edu/" target="_blank" rel="noopener noreferrer">Department of Mathematics</a> at Purdue University under the supervision of <a href="https://www.math.purdue.edu/~zhan1966/" target="_blank" rel="noopener noreferrer">Prof. Xiangxiong Zhang</a>. I received my Ph.D. degree from the <a href="https://cmor.rice.edu/" target="_blank" rel="noopener noreferrer">Department of Computational and Applied Mathematics</a> at Rice University. My advisor is <a href="https://compm.rice.edu/people-2/beatrice-riviere/" target="_blank" rel="noopener noreferrer">Prof. Beatrice Riviere</a>.
+                    Click here for my detailed <a href="CurriculumVitae.pdf">Curriculum Vitae</a>.
+
+
+                    <p class="text-justify"> My research involves the study of numerical techniques for partial differential equations. A few key topics are listed below.
+                    <ul>
+
+                        <li><b>Discontinuous Galerkin methods </b>
+
+                        <li><b>Incompressible Navier-Stokes </b>
+							<!-- <p class="text-justify">I develop numerical methods for conservation laws, which satisfy important 
+							physical model properties, such as entropy stabilty and kinetic energy preservation. In particular, I have developed high-order
+							entropy-stable finite volume schemes for the compressible Euler equations, and extensions accomodate the viscous terms of the Navier-Stokes model. -->
+
+                            <!-- <ul>
+                            <li> Shock-capturing algorithms for conservation laws.</li>
+                            <li> Shock-capturing algorithms for conservation laws.</li>
+                            </ul> -->
+                            <br>
+                        </li>
+                        
+
+                        <li><b>Pore-scale multi-phase flow </b>
+                            <!-- <p class="text-justify">I develop high-order numerical solvers to simulate multi-phase flows through real rock structures. Furthermore, I study the effects of introducing surfactants into the flow dynamics. -->
+                            <!-- <ul>
+                            <li> Shock-capturing algorithms for conservation laws.</li>
+                            <li> Shock-capturing algorithms for conservation laws.</li>
+                            </ul> -->
+                            <br>
+                        </li>
+
+
+                        <li><b>Hyperbolic conservation laws </b>
+                            <!-- <ul>
+                            <li> Shock-capturing algorithms for conservation laws.</li>
+                            <li> Shock-capturing algorithms for conservation laws.</li>
+                            </ul> -->
+                            <br>
+                        </li>
+                          
+                      </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid">
+            <div class="row" style="background-image: linear-gradient(to right, #757373, #002F6C , #757373);">
+                <div class="col-md-12">
+                   <center><font face="lucida" size="5" color=#C1C6C8>&ldquo;In theory, there is no difference between theory and practice. But in practice, there is.&rdquo; </font></center>
+                   <center><font color=#C1C6C8 size="3">-- Anonymous </font></center>
+                   <br>
+                </div>
+            </div>
+        </div> -->
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
 </html>
